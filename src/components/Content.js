@@ -13,6 +13,7 @@ import {
 } from "reactstrap";
 
 import Slider from "./Slider";
+import Footer from "./Footer";
 
 import jsgif from "../assets/images/gif/js.gif";
 import html5 from "../assets/images/gif/html5.gif";
@@ -50,7 +51,7 @@ export default class Content extends Component {
   };
   render() {
     return (
-      <div>
+      <><div>
         <Slider />
         <Navbar expand="md" id="st0" sticky="top" light className="nav-b">
           <img src={code} alt="code" className="codeimg" />
@@ -172,7 +173,7 @@ export default class Content extends Component {
             </NavLink>
           </div>
         </section>
-      </div>
+      </div><Footer /></>
     );
   }
 }
