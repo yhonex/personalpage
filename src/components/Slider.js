@@ -76,7 +76,7 @@ class Slider extends Component {
               <div className="caption">
                 <h1>Bienvenido</h1>
                 <p>A mi pagina personal</p>
-                <p>Dale click para iniciar el recorrido</p>
+                <p>Dale Click para iniciar el recorrido</p>
                 <Link
                   activeClass="active"
                   to="st1"
