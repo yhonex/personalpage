@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../assets/css/Content.css";
-import { Link, animateScroll as scroll } from "react-scroll";
+import {  animateScroll as scroll } from "react-scroll";
 import {
   Collapse,
   Navbar,

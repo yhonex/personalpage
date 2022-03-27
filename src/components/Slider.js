@@ -1,4 +1,4 @@
-import { Button } from "bootstrap";
+
 import React, { Component } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import "../assets/css/Slider.css";
