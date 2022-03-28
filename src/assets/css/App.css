@@ -2,7 +2,7 @@ body {
   text-align: center;
   margin: 0px;
   padding: 0px;
-
+  overflow-x: hidden;
   /*FUENTES*/
   font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
     "Helvetica Neue", sans-serif;

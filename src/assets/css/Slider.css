@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
 }
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 .home {
   height: 100vh;
   overflow: hidden;
@@ -52,7 +53,8 @@
   color: #000000;
   margin: 0;
   -webkit-text-stroke: 2px #ececec;
-  font-family: "Gluten", cursive;
+  /*font-family: "Gluten", cursive;*/
+  font-family: 'Ubuntu', sans-serif;
 }
 .home .slide.active .caption h1 {
   opacity: 0;
@@ -63,7 +65,8 @@
   font-size: 18px;
   margin: 15px 0 30px;
   color: #ffffff;
-  font-family: "Gluten", cursive;
+  /*font-family: "Gluten", cursive;*/
+  font-family: 'Ubuntu', sans-serif;
 }
 .home .slide.active .caption p {
   opacity: 0;

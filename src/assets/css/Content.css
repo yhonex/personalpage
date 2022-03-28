@@ -2,19 +2,22 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  
 }
 body {
   width: 100%;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  /*font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;*/
+  font-family: 'Ubuntu', sans-serif;
   background: #263136;
   
 }
 @import url("https://fonts.googleapis.com/css2?family=Gluten:wght@500&family=Open+Sans&family=Varela+Round&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 .content-pllx {
   width: 100%;
   height: 100vh;
-  background-image: url("../images/prog/AdobeStock_294794307.jpg");
+  background-image: url("../images/prog/codin1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,7 +30,7 @@ body {
 .content-pllx2 {
   width: 100%;
   height: 100vh;
-  background-image: url("../images/prog/profinal.jpg");
+  background-image: url("../images/prog/codin4.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -81,7 +84,7 @@ h2 {
 
 .small-pllx {
   height: inherit;
-  background-image: url("../images/prog/nube.webp");
+  background-image: url("../images/prog/codin2.webp");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -99,7 +102,7 @@ h2 {
 
 .small-pllx2 {
   height: inherit;
-  background-image: url("../images/prog/top-lenguajes-programacion-2021.jpg");
+  background-image: url("../images/prog/codin5.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -116,7 +119,7 @@ h2 {
 }
 .small-pllx3 {
   height: inherit;
-  background-image: url("../images/prog/coding.webp");
+  background-image: url("../images/prog/codin3.webp");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -409,14 +412,15 @@ h2 {
   font-size: 25px;
   color: #1c2baf;
   -webkit-text-stroke: 2px #ececec;
-  font-family: "Gluten", cursive;
+  font-family: 'Ubuntu', sans-serif;
+  /*font-family: "Gluten", cursive;*/
   margin-left: 20px;
 }
 .text-nav1 {
   font-size: 25px;
   color: #1c2baf;
   -webkit-text-stroke: 2px #ececec;
-  font-family: "Gluten", cursive;
+  font-family: 'Ubuntu', sans-serif;
 }
 .nav-b {
   background: #263136;
