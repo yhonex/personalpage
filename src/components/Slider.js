@@ -81,9 +81,9 @@ class Slider extends Component {
                   activeClass="active"
                   to="st4"
                   spy={true}
-                  smooth='linear'
+                  smooth={'linear'}
                   offset={-70}
-                  duration={19000}
+                  duration={20000}
                 >
                   Empezar
                 </Link>
