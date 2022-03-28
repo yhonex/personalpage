@@ -79,7 +79,7 @@ class Slider extends Component {
                 <p>Dale Click para iniciar el recorrido</p>
                 <Link
                   activeClass="active"
-                  to="st4"
+                  to="st1"
                   spy={true}
                   smooth={true}
                   offset={-70}
