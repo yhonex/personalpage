@@ -10,11 +10,7 @@ body {
 }
 @import url("https://fonts.googleapis.com/css2?family=Gluten:wght@500&family=Open+Sans&family=Varela+Round&display=swap");
 
-.imgc {
-  width: 50px;
-  height: 50px;
-  overflow: hidden;
-}
+
 .content-pllx {
   width: 100%;
   height: 100vh;
@@ -36,19 +32,27 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  display: inline-block;
+  display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
 }
 .cont-text {
+  display: flex;
+
+  z-index: 1700;
   background: black;
-  padding: 18px;
-  width: 600px;
+
   text-align: center;
   color: #fff;
   border-radius: 15px;
   opacity: 70%;
+}
+.test1 {
+  height: 615px;
+  width: 600px;
+  margin-top: 400px;
+  z-index: 1500;
 }
 h2 {
   font-size: 32px;
@@ -76,7 +80,7 @@ h2 {
 }
 
 .small-pllx {
-  height: 450px;
+  height: inherit;
   background-image: url("../images/prog/nube.webp");
   background-attachment: fixed;
   background-size: cover;
@@ -94,7 +98,7 @@ h2 {
 }
 
 .small-pllx2 {
-  height: 450px;
+  height: inherit;
   background-image: url("../images/prog/top-lenguajes-programacion-2021.jpg");
   background-attachment: fixed;
   background-size: cover;
@@ -111,7 +115,7 @@ h2 {
   font-weight: 400;
 }
 .small-pllx3 {
-  height: 450px;
+  height: inherit;
   background-image: url("../images/prog/coding.webp");
   background-attachment: fixed;
   background-size: cover;
@@ -163,6 +167,8 @@ h2 {
   align-items: center;
   flex-wrap: wrap;
   overflow: hidden;
+  padding-top: 170px;
+  padding-bottom: 170px;
 }
 
 .logov {
@@ -399,32 +405,30 @@ h2 {
   margin: 0 20px 0 20px;
 }
 
-
 .text-nav {
   font-size: 25px;
   color: #1c2baf;
   -webkit-text-stroke: 2px #ececec;
   font-family: "Gluten", cursive;
-  
+  margin-left: 20px;
 }
 .text-nav1 {
   font-size: 25px;
   color: #1c2baf;
   -webkit-text-stroke: 2px #ececec;
   font-family: "Gluten", cursive;
- 
 }
 .nav-b {
   background: #263136;
 }
 
-.Contat-icon{
+.Contat-icon {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   overflow: hidden;
 
-  padding-top: 100px;
+  padding-top: 25px;
+  
 }
-

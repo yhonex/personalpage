@@ -95,7 +95,7 @@ class Slider extends Component {
               <div className="caption">
                 <h1>Curriculum</h1>
                 <p>Dale click para descargar mi CV </p>
-                <a href="https://drive.google.com/uc?export=download&id=1ZKlvROSz_Zk4HF1mmP3Tu0At-kGLazXJ">Descargar</a>
+                <a href="https://drive.google.com/uc?export=download&id=18pOU7eCDg5I0V53QI9N8-A6f9iRxSQU7" target="_blank" rel="noreferrer">Descargar</a>
               </div>
             </div>
           </div>

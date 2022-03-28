@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../assets/css/Content.css";
-import {  animateScroll as scroll } from "react-scroll";
+import { animateScroll as scroll } from "react-scroll";
 import {
   Collapse,
   Navbar,
@@ -55,12 +55,15 @@ export default class Content extends Component {
         <Slider />
         <Navbar expand="md" id="st0" sticky="top" light className="nav-b">
           <img src={code} alt="code" className="codeimg" />
-          <NavbarBrand className="text-nav1">Mis Conocimientos</NavbarBrand>
+          <NavbarBrand className="text-nav1">Mi pagina</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="mx-auto " navbar>
               <NavItem>
-                <NavLink href="https://drive.google.com/file/d/1ZKlvROSz_Zk4HF1mmP3Tu0At-kGLazXJ/view?usp=sharing" className="text-nav">
+                <NavLink
+                  href="https://drive.google.com/file/d/18pOU7eCDg5I0V53QI9N8-A6f9iRxSQU7/view?usp=sharing"
+                  className="text-nav" target="_blank"
+                >
                   Curriculum
                 </NavLink>
               </NavItem>
@@ -85,7 +88,7 @@ export default class Content extends Component {
           </Collapse>
         </Navbar>
         <div className="content-pllx" id="st1">
-          <div>
+          <div className="test1">
             <h2 className="cont-text">
               En la siguiente pagina podra ver mis conocimientos en los difentes
               ambitos de la programación web
@@ -153,24 +156,27 @@ export default class Content extends Component {
           </div>
         </section>
         <section className="content-pllx2" id="st4">
-          <div>
+          <div className="test1">
             <h2 className="cont-text">
               Podes contactarme en las siguientes redes sociales:
             </h2>
-          </div>
-          <div className="Contat-icon">
-            <NavLink href="https://www.facebook.com/berserkert" target="_blank">
-              <img src={face} classNam="icon-img" alt="face" />
-            </NavLink>
-            <NavLink href="https://github.com/yhonex" target="_blank">
-              <img src={github} classNam="icon-img" alt="github" />
-            </NavLink>
-            <NavLink
-              href="https://www.linkedin.com/in/diego-urbina-2a0742203/"
-              target="_blank"
-            >
-              <img src={linkedin} classNam="icon-img" alt="linkedin" />
-            </NavLink>
+            <div className="Contat-icon">
+              <NavLink
+                href="https://www.facebook.com/berserkert"
+                target="_blank"
+              >
+                <img src={face} className="icon-img" alt="face" />
+              </NavLink>
+              <NavLink href="https://github.com/yhonex" target="_blank">
+                <img src={github} className="icon-img" alt="github" />
+              </NavLink>
+              <NavLink
+                href="https://www.linkedin.com/in/diego-urbina-2a0742203/"
+                target="_blank"
+              >
+                <img src={linkedin} className="icon-img" alt="linkedin" />
+              </NavLink>
+            </div>
           </div>
         </section>
       </div><Footer /></>
