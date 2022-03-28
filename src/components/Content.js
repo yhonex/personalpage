@@ -155,8 +155,8 @@ export default class Content extends Component {
             </div>
           </div>
         </section>
-        <section className="content-pllx2" id="st4">
-          <div className="test1">
+        <section className="content-pllx2" >
+          <div className="test1"id="st4">
             <h2 className="cont-text">
               Podes contactarme en las siguientes redes sociales:
             </h2>
