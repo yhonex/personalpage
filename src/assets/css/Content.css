@@ -7,7 +7,7 @@
 body {
   width: 100%;
   /*font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;*/
-  font-family: 'Ubuntu', sans-serif;
+  /*font-family: 'Ubuntu', sans-serif;*/
   background: #263136;
   
 }
@@ -42,6 +42,7 @@ body {
 }
 .cont-text {
   display: flex;
+  font-family: 'Ubuntu', sans-serif;
 
   
   background: black;
