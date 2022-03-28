@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
 }
-
 .home {
   height: 100vh;
   overflow: hidden;
@@ -10,6 +9,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  overflow: visible;
 }
 
 .home .slide {
@@ -146,5 +146,3 @@
 .slide-4 {
   background-image: url("../images/prog/slider4.jpg");
 }
-
-

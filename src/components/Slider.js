@@ -1,6 +1,6 @@
-
 import React, { Component } from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { animateScroll as scroll } from "react-scroll";
+
 import "../assets/css/Slider.css";
 
 class Slider extends Component {
@@ -66,7 +66,7 @@ class Slider extends Component {
   onClickDown = () => {
     scroll.scrollToBottom();
   };
-
+ 
   render() {
     return (
       <section className="home" id="sl0">
@@ -76,17 +76,6 @@ class Slider extends Component {
               <div className="caption">
                 <h1>Bienvenido</h1>
                 <p>A mi pagina personal</p>
-                <p>Dale Click para iniciar el recorrido</p>
-                <Link
-                  activeClass="active"
-                  to="st1"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration={25000}
-                >
-                  Empezar
-                </Link>
               </div>
             </div>
           </div>
@@ -95,7 +84,13 @@ class Slider extends Component {
               <div className="caption">
                 <h1>Curriculum</h1>
                 <p>Dale click para descargar mi CV </p>
-                <a href="https://drive.google.com/uc?export=download&id=18pOU7eCDg5I0V53QI9N8-A6f9iRxSQU7" target="_blank" rel="noreferrer">Descargar</a>
+                <a
+                  href="https://drive.google.com/uc?export=download&id=18pOU7eCDg5I0V53QI9N8-A6f9iRxSQU7"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Descargar
+                </a>
               </div>
             </div>
           </div>
