@@ -39,6 +39,7 @@ export default class Content extends Component {
     this.toggle = this.toggle.bind(this);
     this.state = {
       isOpen: false,
+      
     };
   }
   toggle() {
@@ -51,135 +52,139 @@ export default class Content extends Component {
   };
   render() {
     return (
-      <><div>
-        <Slider />
-        <Navbar expand="md" id="st0" sticky="top" light className="nav-b">
-          <img src={code} alt="code" className="codeimg" />
-          <NavbarBrand className="text-nav1">Mi pagina</NavbarBrand>
-          <NavbarToggler onClick={this.toggle} />
-          <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="mx-auto " navbar>
-              <NavItem>
+      <>
+        <div>
+          <Slider />
+          <Navbar expand="md" id="st0" sticky="top" light className="nav-b">
+            <img src={code} alt="code" className="codeimg" />
+            <NavbarBrand className="text-nav1">Mi pagina</NavbarBrand>
+            <NavbarToggler onClick={this.toggle} />
+            <Collapse isOpen={this.state.isOpen} navbar>
+              <Nav className="mx-auto " navbar>
+                <NavItem>
+                  <NavLink
+                    href="https://drive.google.com/file/d/18pOU7eCDg5I0V53QI9N8-A6f9iRxSQU7/view?usp=sharing"
+                    className="text-nav"
+                    target="_blank"
+                  >
+                    Curriculum
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink
+                    href="https://github.com/yhonex"
+                    className="text-nav"
+                    target="_blank"
+                  >
+                    GitHub
+                  </NavLink>
+                </NavItem>
+              </Nav>
+              <Button
+                color="primary"
+                size="sm"
+                className="mx-auto"
+                onClick={this.onClickUp}
+              >
+                subir
+              </Button>
+            </Collapse>
+          </Navbar>
+          <div className="content-pllx" id="st1">
+            <div className="test1">
+              <h2 className="cont-text">
+                En la siguiente pagina podra ver mis conocimientos en los
+                difentes ambitos de la programación web
+              </h2>
+            </div>
+          </div>
+
+          <section className="text-pllx">
+            <div className="bg-6">
+              <div className="glitch" data-text="Frontend">
+                Frontend
+              </div>
+            </div>
+          </section>
+          <section className="small-pllx">
+            <div className="pllx-gif">
+              <img src={jsgif} className="imgif" alt="jsgif" />
+              <img src={css} className="imgif" alt="css" />
+              <img src={html5} className="imgif" alt="html5" />
+              <img src={boostrap} className="imgif" alt="boostrap" />
+
+              <img src={ux} className="imgif" alt="ux" />
+            </div>
+          </section>
+          <section className="text-pllx">
+            <div className="bg-6">
+              <div className="glitch ajust" data-text="Frameworks">
+                Frameworks
+              </div>
+            </div>
+          </section>
+          <section className="small-pllx3">
+            <div className="pllx-gif">
+              <div className="logov">
+                <img src={vue} className="imgif " alt="vue" />
+              </div>
+              <div className="logor">
+                <img src={logor} className="imgif App-logor" alt="logor" />
+              </div>
+              <div className="logov">
+                <img src={angular} className="imgif " alt="angular" />
+              </div>
+            </div>
+          </section>
+          <section className="text-pllx">
+            <div className="bg-6">
+              <div className="glitch" data-text="Backend">
+                Backend
+              </div>
+            </div>
+          </section>
+          <section className="small-pllx2">
+            <div className="pllx-gif">
+              <img src={node} className="imgif" alt="node" />
+              <img src={mongodb} className="imgif" alt="mongodb" />
+              <img src={php} className="imgif" alt="php" />
+              <img src={github3} className="imgif" alt="github3" />
+            </div>
+          </section>
+          <section className="text-pllx">
+            <div className="bg-6">
+              <div className="glitch" data-text="Contactos">
+                Contactos
+              </div>
+            </div>
+          </section>
+          <section className="content-pllx2" id="st4">
+            <div className="test1">
+              <h2 className="cont-text">
+                Podes contactarme en las siguientes redes sociales:
+              </h2>
+              <div className="Contat-icon">
                 <NavLink
-                  href="https://drive.google.com/file/d/18pOU7eCDg5I0V53QI9N8-A6f9iRxSQU7/view?usp=sharing"
-                  className="text-nav" target="_blank"
-                >
-                  Curriculum
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink
-                  href="https://github.com/yhonex"
-                  className="text-nav"
+                  href="https://www.facebook.com/berserkert"
                   target="_blank"
                 >
-                  GitHub
+                  <img src={face} className="icon-img" alt="face" />
                 </NavLink>
-              </NavItem>
-            </Nav>
-            <Button
-              color="primary"
-              size="sm"
-              className="mx-auto"
-              onClick={this.onClickUp}
-            >
-              subir
-            </Button>
-          </Collapse>
-        </Navbar>
-        <div className="content-pllx" id="st1">
-          <div className="test1">
-            <h2 className="cont-text">
-              En la siguiente pagina podra ver mis conocimientos en los difentes
-              ambitos de la programación web
-            </h2>
-          </div>
+                <NavLink href="https://github.com/yhonex" target="_blank">
+                  <img src={github} className="icon-img" alt="github" />
+                </NavLink>
+                <NavLink
+                  href="https://www.linkedin.com/in/diego-urbina-2a0742203/"
+                  target="_blank"
+                >
+                  <img src={linkedin} className="icon-img" alt="linkedin" />
+                </NavLink>
+              </div>
+            </div>
+          </section>
         </div>
-
-        <section className="text-pllx">
-          <div className="bg-6">
-            <div className="glitch" data-text="Frontend">
-              Frontend
-            </div>
-          </div>
-        </section>
-        <section className="small-pllx">
-          <div className="pllx-gif">
-            <img src={jsgif} className="imgif" alt="jsgif" />
-            <img src={css} className="imgif" alt="css" />
-            <img src={html5} className="imgif" alt="html5" />
-            <img src={boostrap} className="imgif" alt="boostrap" />
-
-            <img src={ux} className="imgif" alt="ux" />
-          </div>
-        </section>
-        <section className="text-pllx">
-          <div className="bg-6">
-            <div className="glitch ajust" data-text="Frameworks">
-              Frameworks
-            </div>
-          </div>
-        </section>
-        <section className="small-pllx3">
-          <div className="pllx-gif">
-            <div className="logov">
-              <img src={vue} className="imgif " alt="vue" />
-            </div>
-            <div className="logor">
-              <img src={logor} className="imgif App-logor" alt="logor" />
-            </div>
-            <div className="logov">
-              <img src={angular} className="imgif " alt="angular" />
-            </div>
-          </div>
-        </section>
-        <section className="text-pllx">
-          <div className="bg-6">
-            <div className="glitch" data-text="Backend">
-              Backend
-            </div>
-          </div>
-        </section>
-        <section className="small-pllx2">
-          <div className="pllx-gif">
-            <img src={node} className="imgif" alt="node" />
-            <img src={mongodb} className="imgif" alt="mongodb" />
-            <img src={php} className="imgif" alt="php" />
-            <img src={github3} className="imgif" alt="github3" />
-          </div>
-        </section>
-        <section className="text-pllx">
-          <div className="bg-6">
-            <div className="glitch" data-text="Contactos">
-              Contactos
-            </div>
-          </div>
-        </section>
-        <section className="content-pllx2" id="st4" >
-          <div className="test1">
-            <h2 className="cont-text">
-              Podes contactarme en las siguientes redes sociales:
-            </h2>
-            <div className="Contat-icon">
-              <NavLink
-                href="https://www.facebook.com/berserkert"
-                target="_blank"
-              >
-                <img src={face} className="icon-img" alt="face" />
-              </NavLink>
-              <NavLink href="https://github.com/yhonex" target="_blank">
-                <img src={github} className="icon-img" alt="github" />
-              </NavLink>
-              <NavLink
-                href="https://www.linkedin.com/in/diego-urbina-2a0742203/"
-                target="_blank"
-              >
-                <img src={linkedin} className="icon-img" alt="linkedin" />
-              </NavLink>
-            </div>
-          </div>
-        </section>
-      </div><Footer /></>
+        <Footer />
+      </>
     );
   }
 }

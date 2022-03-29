@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { animateScroll as scroll } from "react-scroll";
 
+
 import "../assets/css/Slider.css";
 
 class Slider extends Component {
@@ -66,7 +67,7 @@ class Slider extends Component {
   onClickDown = () => {
     scroll.scrollToBottom();
   };
- 
+
   render() {
     return (
       <section className="home" id="sl0">
@@ -76,6 +77,9 @@ class Slider extends Component {
               <div className="caption">
                 <h1>Bienvenido</h1>
                 <p>A mi pagina personal</p>
+                <a href="" >
+                  Empezar
+                </a>
               </div>
             </div>
           </div>
