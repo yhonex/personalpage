@@ -212,6 +212,15 @@ export default class Firts extends Component {
                         GitHub
                       </NavLink>
                     </NavItem>
+                    <NavItem>
+                      <NavLink
+                        href="https://gallery-vue.herokuapp.com"
+                        className="text-nav"
+                        target="_blank"
+                      >
+                        Galeria
+                      </NavLink>
+                    </NavItem>
                   </Nav>
                   <Button
                     color="primary"
