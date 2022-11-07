@@ -39,7 +39,6 @@ export default class Content extends Component {
     this.toggle = this.toggle.bind(this);
     this.state = {
       isOpen: false,
-      
     };
   }
   toggle() {
@@ -63,7 +62,7 @@ export default class Content extends Component {
               <Nav className="mx-auto " navbar>
                 <NavItem>
                   <NavLink
-                    href="https://drive.google.com/file/d/18pOU7eCDg5I0V53QI9N8-A6f9iRxSQU7/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1qsSnxSydcJPoJ-ZE1DOl2ihI5qarqCmS/view"
                     className="text-nav"
                     target="_blank"
                   >

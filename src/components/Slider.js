@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { animateScroll as scroll } from "react-scroll";
 
-
 import "../assets/css/Slider.css";
 
 class Slider extends Component {
@@ -77,9 +76,7 @@ class Slider extends Component {
               <div className="caption">
                 <h1>Bienvenido</h1>
                 <p>A mi pagina personal</p>
-                <a href="" >
-                  Empezar
-                </a>
+                <a href="">Empezar</a>
               </div>
             </div>
           </div>
@@ -89,7 +86,7 @@ class Slider extends Component {
                 <h1>Curriculum</h1>
                 <p>Dale click para descargar mi CV </p>
                 <a
-                  href="https://drive.google.com/uc?export=download&id=18pOU7eCDg5I0V53QI9N8-A6f9iRxSQU7"
+                  href="https://drive.google.com/uc?export=download&id=1qsSnxSydcJPoJ-ZE1DOl2ihI5qarqCmS"
                   target="_blank"
                   rel="noreferrer"
                 >

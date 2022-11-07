@@ -130,7 +130,7 @@ export default class Firts extends Component {
                     <div className="caption">
                       <h1>Bienvenido</h1>
                       <p>A mi pagina personal</p>
-                      
+
                       <a href="#" onClick={this.btn1}>
                         Empezar
                       </a>
@@ -143,7 +143,7 @@ export default class Firts extends Component {
                       <h1>Curriculum</h1>
                       <p>Dale click para descargar mi CV </p>
                       <a
-                        href="https://drive.google.com/uc?export=download&id=18pOU7eCDg5I0V53QI9N8-A6f9iRxSQU7"
+                        href="https://drive.google.com/uc?export=download&id=1oetZ9EEJbMBPGLEAHhFURl0kZTG_AjyM"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -196,7 +196,7 @@ export default class Firts extends Component {
                   <Nav className="mx-auto " navbar>
                     <NavItem>
                       <NavLink
-                        href="https://drive.google.com/file/d/18pOU7eCDg5I0V53QI9N8-A6f9iRxSQU7/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1oetZ9EEJbMBPGLEAHhFURl0kZTG_AjyM/view?usp=share_link"
                         className="text-nav"
                         target="_blank"
                       >
