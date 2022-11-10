@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/personalpage/static/css/main.9bf4224f.chunk.css",
+    "main.js": "/personalpage/static/js/main.7fb35e47.chunk.js",
+    "main.js.map": "/personalpage/static/js/main.7fb35e47.chunk.js.map",
+    "runtime-main.js": "/personalpage/static/js/runtime-main.0a06e69d.js",
+    "runtime-main.js.map": "/personalpage/static/js/runtime-main.0a06e69d.js.map",
+    "static/css/2.f2512455.chunk.css": "/personalpage/static/css/2.f2512455.chunk.css",
+    "static/js/2.f97c1975.chunk.js": "/personalpage/static/js/2.f97c1975.chunk.js",
+    "static/js/2.f97c1975.chunk.js.map": "/personalpage/static/js/2.f97c1975.chunk.js.map",
+    "static/js/3.b0e538bd.chunk.js": "/personalpage/static/js/3.b0e538bd.chunk.js",
+    "static/js/3.b0e538bd.chunk.js.map": "/personalpage/static/js/3.b0e538bd.chunk.js.map",
+    "index.html": "/personalpage/index.html",
+    "static/css/2.f2512455.chunk.css.map": "/personalpage/static/css/2.f2512455.chunk.css.map",
+    "static/css/main.9bf4224f.chunk.css.map": "/personalpage/static/css/main.9bf4224f.chunk.css.map",
+    "static/js/2.f97c1975.chunk.js.LICENSE.txt": "/personalpage/static/js/2.f97c1975.chunk.js.LICENSE.txt",
+    "static/media/angular.28ae4f3c.svg": "/personalpage/static/media/angular.28ae4f3c.svg",
+    "static/media/boostrap.361d61e8.gif": "/personalpage/static/media/boostrap.361d61e8.gif",
+    "static/media/code1.e661e35e.png": "/personalpage/static/media/code1.e661e35e.png",
+    "static/media/Content.css": "/personalpage/static/media/codin5.94c152c3.jpg",
+    "static/media/css.50226b12.gif": "/personalpage/static/media/css.50226b12.gif",
+    "static/media/github3.4b4fe8de.gif": "/personalpage/static/media/github3.4b4fe8de.gif",
+    "static/media/html5.e7c45848.gif": "/personalpage/static/media/html5.e7c45848.gif",
+    "static/media/js.cedf282f.gif": "/personalpage/static/media/js.cedf282f.gif",
+    "static/media/logor.6ce24c58.svg": "/personalpage/static/media/logor.6ce24c58.svg",
+    "static/media/mongodb.6878d6f4.gif": "/personalpage/static/media/mongodb.6878d6f4.gif",
+    "static/media/next.bfb23e82.svg": "/personalpage/static/media/next.bfb23e82.svg",
+    "static/media/node.16e1f502.gif": "/personalpage/static/media/node.16e1f502.gif",
+    "static/media/php.6f756701.gif": "/personalpage/static/media/php.6f756701.gif",
+    "static/media/Slider.css": "/personalpage/static/media/slider4.e945d2f3.jpg",
+    "static/media/ux.c0e02686.gif": "/personalpage/static/media/ux.c0e02686.gif",
+    "static/media/vue.2be0235b.png": "/personalpage/static/media/vue.2be0235b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a06e69d.js",
+    "static/css/2.f2512455.chunk.css",
+    "static/js/2.f97c1975.chunk.js",
+    "static/css/main.9bf4224f.chunk.css",
+    "static/js/main.7fb35e47.chunk.js"
+  ]
+}
