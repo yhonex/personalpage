@@ -19,15 +19,14 @@ import Footer from "./Footer";
 import jsgif from "../assets/images/gif/js.gif";
 import html5 from "../assets/images/gif/html5.gif";
 import boostrap from "../assets/images/gif/boostrap.gif";
-import github3 from "../assets/images/gif/github3.gif";
+
 import ux from "../assets/images/gif/ux.gif";
 import css from "../assets/images/gif/css.gif";
-import mongodb from "../assets/images/gif/mongodb.gif";
-import node from "../assets/images/gif/node.gif";
-import php from "../assets/images/gif/php.gif";
+
 import vue from "../assets/images/gif/vue.png";
 import logor from "../assets/images/logor.svg";
 import angular from "../assets/images/gif/angular.svg";
+import next from "../assets/images/gif/next.svg";
 import code from "../assets/images/code1.png";
 import face from "../assets/images/facebook_icon1.png";
 import github from "../assets/images/github_git.png";
@@ -221,6 +220,15 @@ export default class Firts extends Component {
                         Galeria
                       </NavLink>
                     </NavItem>
+                    <NavItem>
+                      <NavLink
+                        href="https://yhonex.github.io/CryptoDashboard/"
+                        className="text-nav"
+                        target="_blank"
+                      >
+                        Crypto-Dashboard
+                      </NavLink>
+                    </NavItem>
                   </Nav>
                   <Button
                     color="primary"
@@ -235,8 +243,10 @@ export default class Firts extends Component {
               <div className="content-pllx" id="st1">
                 <div className="test1">
                   <h2 className="cont-text">
-                    En la siguiente pagina podra ver mis conocimientos en los
-                    difentes ambitos de la programación web
+                    Seas Bienvenido a mi pagina personal : Me presento soy Diego
+                    tengo 28 años originario de venezuela , actualmente vivo En
+                    Buenos Aires Argentina, poseo un año de experiencia como
+                    frontend aqui presento las tecnologias que manejo ⇩
                   </h2>
                 </div>
               </div>
@@ -267,29 +277,35 @@ export default class Firts extends Component {
               <section className="small-pllx3">
                 <div className="pllx-gif">
                   <div className="logov">
-                    <img src={vue} className="imgif " alt="vue" />
+                    <img src={next} className="imgif " alt="next" />
                   </div>
                   <div className="logor">
                     <img src={logor} className="imgif App-logor" alt="logor" />
                   </div>
+
                   <div className="logov">
-                    <img src={angular} className="imgif " alt="angular" />
+                    <img src={vue} className="imgif " alt="vue" />
                   </div>
                 </div>
               </section>
               <section className="text-pllx">
                 <div className="bg-6">
-                  <div className="glitch" data-text="Backend">
-                    Backend
+                  <div className="glitch" data-text="Experiencia">
+                    Experiencia
                   </div>
                 </div>
               </section>
-              <section className="small-pllx2">
-                <div className="pllx-gif">
-                  <img src={node} className="imgif" alt="node" />
-                  <img src={mongodb} className="imgif" alt="mongodb" />
-                  <img src={php} className="imgif" alt="php" />
-                  <img src={github3} className="imgif" alt="github3" />
+              <section className="content-pllx3">
+                <div className="test12">
+                  <h2 className="cont-text">
+                    Si llegaste hasta aca te estaras preguntando cual es mi
+                    experiencia laboral:
+                    <br /> trabaje un año para Netracker S.A Como desarrollador
+                    Front (02/2021 - 03/2022) y <br /> 7 meses para Atua Rental
+                    (04/2022 - 10/2022) como freelancer Frontend.
+                    <br />
+                    Si deseas contactarme sigue bajando ⇩
+                  </h2>
                 </div>
               </section>
               <section className="text-pllx">
